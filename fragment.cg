@@ -1,0 +1,12 @@
+struct output_f   
+{  
+    float4 color:COLOR;  
+};  
+  
+output_f main_f(float4 color:COLOR)  
+{  
+    output_f OUT;  
+    OUT.color = color;  
+      
+    return OUT;  
+}  
